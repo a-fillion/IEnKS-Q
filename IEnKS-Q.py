@@ -43,7 +43,7 @@ elif lin=="bundle":
     eps=10**-4 # Finite differences step
 spin = 10**3 # Spin-up
 H = lambda x : x # Observation operator
-from lorenz95 import M as model # Model
+from lorenz96 import M as model # Model
 ###############################################################################
 
 # Definitions #################################################################
